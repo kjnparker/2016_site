@@ -10,13 +10,14 @@ $("#filter-bar .filterTag").on('click', function(){
     //Update filter selected state
     $("#filter-bar .filterTag").removeClass("selected-filter")
     _.addClass("selected-filter");
-    updateVisibleProjects(newClassification)
+    updateVisibleProjects(newClassification);
   }
 });
 
 function updateVisibleProjects(classification) {
   //Set up variables
-  var visibleProjects = $("#home-projects a:visible"),
+  var projectsSection = $("#home-projects"),
+      visibleProjects = $("#home-projects a:visible"),
       allProjects = $("#home-projects a"),
       environmental = $(".environmental"),
       identity = $('.identity'),
@@ -47,6 +48,9 @@ function updateVisibleProjects(classification) {
         allProjects.fadeIn(500);
     }
   });
+
+  //Auto scroll page to projects section
+  $('html, body').animate({scrollTop: projectsSection.offset().top - 88 }, 700);
 
 }
 
