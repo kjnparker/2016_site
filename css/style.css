@@ -23,6 +23,10 @@
   margin-right: 10px;
 }
 
+.selected-filter {
+  color: #D42364 !important;
+}
+
 /*end of shit chat wrote*/
 
 .bgimage {
@@ -271,6 +275,8 @@ a:hover {
 
 .filterTag {
 	color:rgba(45,45,45,0.3);
+  display: inline-block;
+  cursor: pointer;
 }
 
 .filterTag:hover {
