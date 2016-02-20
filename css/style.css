@@ -5,6 +5,10 @@
   height: 100%;
 }
 
+@font-face {
+  font-family: "DIN";
+  src: url("../fonts/DINWeb-Black.woff") format("woff");
+}
 /*end of shit chat wrote*/
 
 .bgimage {
@@ -74,11 +78,6 @@
 .leftMarginOffset {
 
 	margin-left:30px;
-}
-
-@font-face {
-  font-family: "DIN";
-  src: local("/fonts/DINWeb-Black.woff") format("woff");
 }
 
 .DIN {
