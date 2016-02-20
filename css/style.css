@@ -1,0 +1,261 @@
+
+.bgimage {
+    background-position: center center;
+    background-size: cover;
+}
+
+.footerimage {
+    background-color: #F7EC26;
+    background-position: center center;
+    background-size: cover;
+    height: 298px;
+}
+
+.mainlogo {
+	margin-left:15px;
+	margin-bottom:49px;
+
+}
+
+.projectMainlogo {
+	margin-left:15px;
+	margin-bottom:40px;
+
+}
+
+.navLinkIcon + .tooltip > .tooltip-inner {
+
+	color:#D42364; 
+      background-color: white;  
+      padding: 5px;
+      font-family: "DIN", sans-serif; 
+      font-size: 1.2em;
+      border-radius:0;
+      font-weight:900;
+      font-family:sans-serif;
+      letter spacing:0.12em;
+
+}
+
+.navLinkIcon + .tooltip.top > .tooltip-arrow {
+	border-top:0px;
+}
+
+
+.kern {
+	letter-spacing:0.1em;
+}
+
+.secondarylogo {
+	height: 34px;
+
+}
+
+.magentaHeadline {
+	font-size: 20px;
+	color: #D42364;
+	font-family: helvetica;
+	font-weight: 2;
+}
+
+.no-gutter > [class*='col-'] {
+    padding-right:0;
+    padding-left:0;
+}
+
+.leftMarginOffset {
+
+	margin-left:30px;
+}
+
+@font-face {
+  font-family: "DIN";
+  src: local("/fonts/DINWeb-Black.woff") format("woff");
+}
+
+.DIN {
+	font-family: "DIN", sans-serif;
+	font-weight:900;
+	color: #D42364;
+	font-style:normal;
+	font-size:1.5em;
+	letter-spacing:0.13em;
+
+
+}
+
+#content {
+
+}
+
+#title {
+	margin-top:8px;
+	margin-bottom:10px;
+	margin-left:-2px;
+
+}
+
+#moreWorkTitle {
+
+}
+
+#yellowOverlay {
+	width:100%;
+	height:100%;
+	opacity:0;
+	z-index:1000;
+	position:absolute;
+	background-color:rgba(247,236,38,0.95);
+	transition:0.2s opacity;
+
+}
+
+#yellowOverlay:hover {
+	opacity:1;
+}
+
+
+
+#gridLabelText {
+	opacity:0;
+	font-size: 14px;
+	font-weight:100;
+	color:white;
+}
+
+#gridLabelText:hover {
+	opacity:1;
+}
+
+#footerSpacer {
+	width:15px;
+	height:100%;
+	position: relative;
+}
+
+#projectDescription {
+	padding-right:15px;
+}
+
+#bottomGridRow {
+	margin-bottom:100px;
+}
+
+#bottomContentItem {
+	margin-bottom:150px;
+}
+
+#projectGridDivider {
+	margin-top:1px;
+	margin-bottom:15px;
+}
+
+
+
+@media (max-width: 767px) {
+
+	#navDivider {
+		margin-bottom:8px;
+	}
+
+	#magentaLogo {
+		margin-left:30px;
+	}
+
+	#footerBar {
+		padding-right:30px;
+	}
+
+	#projectDescription {
+		margin-bottom:-20px;
+		padding-left:30px;
+	}
+
+	#nav {
+		margin-left:15px;
+	}
+
+	#title {
+		margin-top:10px;
+	}
+
+	#content {
+		margin-top:50px;
+	}
+
+	#projectContact {
+		margin-top:-90px;
+		margin-bottom:50px;
+	}
+
+	#projectDescriptionBlock {
+		margin-left:30px;
+	}
+
+	#projectMainLogo {
+		margin-left:-15px;
+	}
+
+	#projectMainLogoMargin {
+		margin-left:28px;
+	}
+
+	#moreWorkTitle {
+		margin-left:30px;
+		margin-top:-10px;
+		margin-bottom:50px;
+	}
+
+	#bottomGridRow {
+		margin-bottom:70px;
+	}
+
+	#bottomContentItem {
+		margin-bottom:60px;
+	}
+
+	#projectGridDivider {
+		margin-top:-45px;
+		margin-bottom:60px;
+	}
+
+}
+
+@media (min-width: 768px) {
+	.mainlogo {
+		margin-left:-15px;
+	}
+
+
+	#nav {
+		margin-left:-15px;
+	}
+
+}
+
+p {
+	font-size:.8em;
+	letter-spacing:.1em;
+	line-height:1.5;
+	font-weight:200;
+}
+
+a {
+	text-decoration: none;
+}
+
+a:hover {
+	text-decoration: none;
+}
+
+#filterTag {
+	color:rgba(45,45,45,0.3);
+}
+
+#filterTag:hover {
+	color:#D42364;
+}
+
+
+
+
