@@ -9,6 +9,20 @@
   font-family: "DIN";
   src: url("../fonts/DINWeb-Black.woff") format("woff");
 }
+
+#filter-bar {
+  font-size:0.85em;
+  position:relative;
+  margin-top: 3px;
+  margin-left:-15px;
+  color:rgba(45,45,45,0.3);
+  line-height: 2;
+}
+
+#filter-bar span {
+  margin-right: 10px;
+}
+
 /*end of shit chat wrote*/
 
 .bgimage {
@@ -255,10 +269,10 @@ a:hover {
 	text-decoration: none;
 }
 
-#filterTag {
+.filterTag {
 	color:rgba(45,45,45,0.3);
 }
 
-#filterTag:hover {
+.filterTag:hover {
 	color:#D42364;
 }
